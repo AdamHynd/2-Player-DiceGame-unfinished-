@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiceGame 2-Player</title>
+    <link rel="stylesheet" href="./2player.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="border">
+            <div class="inner">
+                <div class="img"><img src="./diceImages/dice1.png" id="Dice"></div>
+            </div>
+            <div class="text-row">
+                <h2>Score</h2>
+                <p id="P-1Score"></p>
+                <p id="P-1WinLose"></p>
+                <P id = "Player1wins"></P>
+                <p id="Player1losses"></p>
+            </div>
+                <button id="P-1rollbutton">Roll</button>
+                <button id="P-1holdbutton">P1 Hold</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-row">
+        <h2>Score</h2>
+        <p id="P-2Score"></p>
+        <p id="P-2WinLose"></p>
+    </div>
+        <button id="P-2rollbutton">Roll</button>
+        <button id="P-2holdbutton">P2 Hold</button>
+    <script src="./2player.js"></script>
+</body>
+</html>
